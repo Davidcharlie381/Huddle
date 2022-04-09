@@ -81,7 +81,7 @@ button {
   font-size: .9rem;
   font-weight: 400;
   padding: .85em 2.9em;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   margin-bottom: 115px;
   text-transform: capitalize;
   font-weight: 500;
@@ -291,11 +291,15 @@ input[type="email"] {
 button[type="submit"] {
   align-self: flex-end;
   margin-top: 10px;
-  padding: 1em 4em;
+  padding: .8em 3em;
   background: hsl(322, 100%, 66%);
   border: none;
   border-radius: 7px;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .8px;
   color: inherit;
+  outline: none;
 }
 
 .huddle {
