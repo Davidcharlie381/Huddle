@@ -282,10 +282,28 @@ footer {
 
 input[type="email"] {
   width: 100%;
-  padding: 1.1em 0;
+  padding: 1.1em 1em;
   margin-top: 30px;
   border: none;
   border-radius: 7px;
+  outline: none;
+}
+
+button {
+  outline: none;
+}
+
+button:hover {
+  background: hsl(321, 100%, 78%);
+  transition: .3s;
+}
+
+.try-it button:hover {
+  filter: brightness(200%);
+}
+
+button[type="submit"]:hover {
+  background: hsl(321, 100%, 78%);
 }
 
 button[type="submit"] {
@@ -299,7 +317,6 @@ button[type="submit"] {
   font-size: 1rem;
   letter-spacing: .8px;
   color: inherit;
-  outline: none;
 }
 
 .huddle {
